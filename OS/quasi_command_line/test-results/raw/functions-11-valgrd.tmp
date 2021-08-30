@@ -1,0 +1,16 @@
+==465== Memcheck, a memory error detector
+==465== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==465== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==465== Command: ./test_cmd cmd_update_2
+==465== Parent PID: 464
+==465== 
+==465== error calling PR_SET_PTRACER, vgdb might block
+==465== 
+==465== HEAP SUMMARY:
+==465==     in use at exit: 0 bytes in 0 blocks
+==465==   total heap usage: 15 allocs, 15 frees, 3,413 bytes allocated
+==465== 
+==465== All heap blocks were freed -- no leaks are possible
+==465== 
+==465== For counts of detected and suppressed errors, rerun with: -v
+==465== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
